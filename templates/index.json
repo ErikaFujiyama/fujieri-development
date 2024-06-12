@@ -1,0 +1,214 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_rDde4B": {
+          "type": "heading",
+          "settings": {
+            "heading": "HAMANASU ROSE BALM",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "VIEW MORE",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rDde4B",
+        "button"
+      ],
+      "custom_css": [
+        ".banner__heading {color: #2f2f2f; font-size: 30px; letter-spacing: 6px;}",
+        ".banner__buttons a {border: 1px solid #2f2f2f; background: none;}",
+        ".banner__buttons a::after {box-shadow: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HAMANASUROSEBALM.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "image_banner_yx4AzV": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hamanasu-img.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_7TEexa": {
+      "type": "multirow",
+      "blocks": {
+        "row_Yqby4L": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hamanasu-img02.webp",
+            "caption": "",
+            "heading": "ABOUT kiiks",
+            "text": "<p>製品は全て自然由来で、ひとつひとつ手作り。<br\/>丁寧な生活と心の豊かさを追求し、<br\/>自分にも地球にも気持ち良い商品作りを目指します。<br\/>プロダクトを通して、個々人の幸せの輪が広がり、<br\/>制作活動を通して地域活性化にも貢献する。<br\/>それが私たちの願いです。<\/p>",
+            "button_label": "VIEW MORE",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Yqby4L"
+      ],
+      "custom_css": [
+        "h2 {margin-bottom: 30px; letter-spacing: 3px;}",
+        "p {margin-bottom: 20px; font-size: 14px;}"
+      ],
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "video_py83iz": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_product_a3Gpwe": {
+      "type": "featured-product",
+      "blocks": {
+        "text_7g8rRm": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_nTBxj7": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_qRCJTp": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_9Qewhy": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_RJMy9Y": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_3C44eY": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_z3R98E": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "custom_liquid_JWRYjW": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{product.metafields.custom._capacity}}"
+          }
+        },
+        "test_tCJrCV": {
+          "type": "test",
+          "settings": {
+          }
+        },
+        "sizetest_DTj6AW": {
+          "type": "sizetest",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "text_7g8rRm",
+        "title_nTBxj7",
+        "price_qRCJTp",
+        "variant_picker_9Qewhy",
+        "quantity_selector_RJMy9Y",
+        "buy_buttons_3C44eY",
+        "share_z3R98E",
+        "custom_liquid_JWRYjW",
+        "test_tCJrCV",
+        "sizetest_DTj6AW"
+      ],
+      "settings": {
+        "product": "テスト01",
+        "color_scheme": "scheme-2",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "image_banner_yx4AzV",
+    "multirow_7TEexa",
+    "video_py83iz",
+    "featured_product_a3Gpwe"
+  ]
+}
