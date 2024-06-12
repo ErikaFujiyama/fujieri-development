@@ -8,7 +8,7 @@
         ".header {position: fixed; top: 0; left: 50%; transform: translateX(-50%); width: 100%; background: linear-gradient(180deg, #00000073, #0000) !important;}"
       ],
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "middle-center",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
